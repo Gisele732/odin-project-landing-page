@@ -9,7 +9,7 @@ header {
     flex-direction: column;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 24px;
+    padding: 24px 100px;
 }
 
 header img {
@@ -22,6 +22,11 @@ header img {
 .top-header, .bottom-header {
     display: flex;
     justify-content: space-between;
+}
+
+.left-header h1 {
+    font-size: 48px; 
+    color: #F9FAF8
 }
 
 ul {
@@ -53,6 +58,7 @@ button {
 .random-information {
     padding: 24px;
 }
+
 .random-information h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -80,6 +86,25 @@ button {
     max-width: 100px;
     border: solid #3882F6 2px;
     border-radius: 20px;
+    margin: 5px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 24px 150px;
+    color: #1F2937;
+}
+
+.testimonial-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.testimonial-signature {
+    font-weight: bolder;
+    text-align: right;
 }
 
 .sign-up {
